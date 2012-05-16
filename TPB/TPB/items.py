@@ -8,5 +8,5 @@ from scrapy.item import Item, Field
 class TpbItem(Item):
     name = Field()
     magnet = Field()
-    #match = Field()
+    match = Field()
     pass
