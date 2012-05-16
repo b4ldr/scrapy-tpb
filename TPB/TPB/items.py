@@ -9,4 +9,5 @@ class TpbItem(Item):
     name = Field()
     magnet = Field()
     match = Field()
+    btih = Field()
     pass
