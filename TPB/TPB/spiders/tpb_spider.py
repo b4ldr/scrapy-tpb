@@ -2,7 +2,7 @@
 from scrapy.selector import HtmlXPathSelector
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-from TPB.items import TpbItem
+from TPB.tpb_items import TpbItem
 import re
 
 class TpbSpider(CrawlSpider):
